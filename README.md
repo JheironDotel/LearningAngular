@@ -1,2 +1,0 @@
-# LearningAngular
-Created with CodeSandbox
