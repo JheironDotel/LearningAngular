@@ -16,4 +16,13 @@
 	<!-- <p>Los últimos tres sueldos son: {{sueldos[0]}}, {{sueldos[1]}} y {{sueldos[2]}}</p>
 	<p>En los últimos 3 meses ha ganado: {{ultimo3Sueldos()}}</p>
 	<p>{{esActivo()}}</p> -->
+
+	<p>{{contador}}</p>
+	<button (click)="incrementar()">Sumar 1</button>
+	<button (click)="decrementar()">Restar 1</button>
+
+	<input type="text" [(ngModel)]="nombre" />
+	<input type="text" [(ngModel)]="apellido" />
+
+	<p>{{nombre}}, {{apellido}}</p>
 </div>

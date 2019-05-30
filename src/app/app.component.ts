@@ -6,12 +6,13 @@ import { Component } from "@angular/core";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  nombre = "Jheiron Dotel";
+  nombre = "Jheiron";
+  apellido = "Dotel";
   edad = 15;
   //email = "jdotel@yea.com";
   sueldos = [1700, 1600, 1900];
   //activo = true;
-
+  contador = 1;
   /*esActivo() {
     if (this.activo) {
       return "Trabajador activo";
@@ -28,4 +29,12 @@ export class AppComponent {
 
     return suma;
   }*/
+
+  incrementar() {
+    this.contador++;
+  }
+
+  decrementar() {
+    this.contador--;
+  }
 }
