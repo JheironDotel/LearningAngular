@@ -7,12 +7,12 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   nombre = "Jheiron Dotel";
-  edad = 29;
-  email = "jdotel@yea.com";
+  edad = 15;
+  //email = "jdotel@yea.com";
   sueldos = [1700, 1600, 1900];
-  activo = true;
+  //activo = true;
 
-  esActivo() {
+  /*esActivo() {
     if (this.activo) {
       return "Trabajador activo";
     } else {
@@ -27,5 +27,5 @@ export class AppComponent {
     }
 
     return suma;
-  }
+  }*/
 }
